@@ -1,0 +1,75 @@
+main{
+  .container{
+    width: 1300px;
+    margin: 0 auto;
+  
+  .section-about{
+    margin: 122px 0 0 0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    &-photo{
+width: 600px;
+    }
+    &-words{
+      top: 275px;
+    right: 232px;
+    position: relative;
+     
+
+        img.img01{
+          position: absolute;
+          transform: rotate(219deg);
+          top: 235px;
+          right: -178px;
+
+      }
+      img.img02{
+        position: absolute;
+        transform: rotate(415deg);
+        top: -123px;
+        right: 200px;
+
+    }
+      
+    }
+  }
+.section-etc{
+  width: 100%;
+  height: 100vh;
+ &-album{
+  margin-left: 100px;
+  .etc.etc-1{
+    position: relative;
+    margin: 50px 70px;
+    float: left;
+   &:hover{
+      transform: scale(1.05);
+      transition: 0.8s ease;
+    }
+    .etc-text{
+      position: absolute;
+      top: 267px;
+      p{
+        font-size: 13px;
+      }
+
+    }
+
+}
+ }
+  }
+  .section-youtube{
+    width: 100%;
+    height: 100vh;
+    h1{
+      margin-bottom: 90px;
+    }
+    &-link{
+      margin-left: 150px;
+    }
+  }
+}
+}
