@@ -349,6 +349,10 @@ main .container .section-etc-album .etc.etc-1 {
   margin: 50px 70px;
   float: left;
 }
+main .container .section-etc-album .etc.etc-1 img {
+  width: 260px;
+  height: 260px;
+}
 main .container .section-etc-album .etc.etc-1:hover {
   transform: scale(1.05);
   transition: 0.8s ease;
